@@ -8,11 +8,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/393-domain
 x-kinRank: "7"
 x-alexaRank: "6104"
 tags: Brands
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/domaintools/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Brand Monitor API - Brand Monitor
+  x-api-slug: markalert-get
+  description: Monitor new domains registrations for specific keywords
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/393-domaintools.jpg
+  humanURL: http://www.domaintools.com
+  baseURL: http://api.domaintools.com//v1
+  tags: Domain Names, DNS, DNS Internet, SaaS, Enterprise, Technology, internet, API
+    Service Provider, API Provider, Profiles, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/domaintools/markalert-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/domaintools/markalert-get-openapi.md
 - name: Brand Monitor API - Brand Monitor
   x-api-slug: markalert-get
   description: Monitor new domains registrations for specific keywords

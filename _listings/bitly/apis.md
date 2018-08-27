@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: Brands
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Bitly Organization Metric API - Organization Brand Messages
+  x-api-slug: v3organizationbrand-messages-get
+  description: Returns the top Bitlinks created by you with traffic, that did not
+    also have non-organization traffic in the same time period, ordered by clicks.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg
+  humanURL: http://bitly.com
+  baseURL: https://api-ssl.bitly.com//v3
+  tags: Library, Universities, University Library, University In Progress, Stack Network,
+    Technology, SaaS, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/bitly/v3organizationbrand-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/brands/master/_listings/bitly/v3organizationbrand-messages-get-openapi.md
 - name: Bitly Organization Metric API - Organization Brand Messages
   x-api-slug: v3organizationbrand-messages-get
   description: Returns the top Bitlinks created by you with traffic, that did not

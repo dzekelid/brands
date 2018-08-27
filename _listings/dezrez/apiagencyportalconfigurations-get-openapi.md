@@ -541,6 +541,28 @@ paths:
       - Of
       - Brandsa
       - Agency
+  /api/branch/{id}/Brandings:
+    get:
+      summary: Get a Branch brandings by its id.
+      description: Get a branch brandings by its id..
+      operationId: Branch_BrandingsByid
+      x-api-path-slug: apibranchidbrandings-get
+      parameters:
+      - in: path
+        name: id
+        description: The id of the Branch brandings  to get
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Branch
+      - Brandings
+      - By
+      - Its
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
